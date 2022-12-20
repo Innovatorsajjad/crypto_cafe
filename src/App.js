@@ -1,11 +1,10 @@
 import './App.css';
+import Navbar from './sheard/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-        <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Navbar/>
     </div>
   );
 }
