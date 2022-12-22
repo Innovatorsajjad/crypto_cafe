@@ -1,10 +1,12 @@
 import './App.css';
+import FirstBanner from './components/FirstBanner/FirstBanner';
 import Navbar from './sheard/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
+      <FirstBanner/>
     </div>
   );
 }
